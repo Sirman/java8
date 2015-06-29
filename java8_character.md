@@ -42,3 +42,7 @@ lambda实例
             myApp.operateBinary(20, 10, divide));
     }
 	}
+也可以把
+`myApp.operateBinary(40, 2, multi ));`
+也可以写成
+`myApp.operateBinary(40,2,(a,b)->a*b);`
